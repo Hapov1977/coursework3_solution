@@ -30,7 +30,7 @@
     {% endif %}
 
     <section class="items">
-      {% for post in posts %}}
+      {% for post in posts %}
       <div class="items__item item">
         <div class="item__top">
           <a href="/users/{{ post.poster_name}}" class="item__head">
@@ -46,7 +46,7 @@
         <p class="item__descr">{{ post.content }}</p>
         <div class="item__post-info">
           <div class="item__counter">
-            <img src="../static/eye.png" alt="" class="item__counter-icon" width="26">
+            <img src="/static/img/eye.png" alt="" class="item__counter-icon" width="26">
             <span class="item__counter-text">{{ post.views_count }}</span>
           </div>
         </div>
